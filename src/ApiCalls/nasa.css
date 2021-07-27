@@ -1,0 +1,21 @@
+.nasa{
+    background-color: lightskyblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+button{
+    background-color: lightslategray;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    height: 2rem;
+}
+body{
+    background-image: no-repeat-linear-gradient(white, gray);
+}
+ul{
+    list-style-type: none;
+}
