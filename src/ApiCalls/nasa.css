@@ -1,17 +1,30 @@
-.nasa{
-    background-color: lightskyblue;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+* {
+    background-color: #e8f4f8;
 }
-button{
-    background-color: lightslategray;
-    color: white;
-    text-decoration: none;
+
+.nasa{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    
+}
+
+
+
+.item {
+    margin-top: 0.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+.btnSize{
+     text-decoration: none;
     border: none;
     border-radius: 5px;
-    height: 2rem;
+   width: 10em;
 }
 body{
     background-image: no-repeat-linear-gradient(white, gray);

@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import { Container, Row, Col, Button } from "reactstrap";
+import "./nasa.css";
 
 const Ticket = () => {
     const [info, setInfo] = useState("");
@@ -25,13 +26,13 @@ const Ticket = () => {
       <Container className="nasa">
         <Row>
           <Col md="6">
-            <Button onClick={ticketMaster}>Get nearby Events</Button>
+            <Button  className="btnSize" outline color="info" onClick={ticketMaster}>Nearby Events</Button>
             <ul>
-              <li>{info}</li>
-              <li>{info2}</li>
-              <li>{info3}</li>
-              <li>{info4}</li>
-              <li>{info5}</li>
+              <li className="item">{info}</li>
+              <li className="item">{info2}</li>
+              <li className="item">{info3}</li>
+              <li className="item">{info4}</li>
+              <li className="item">{info5}</li>
             </ul>
           </Col>
         </Row>

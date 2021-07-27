@@ -36,11 +36,11 @@ const GeoLocation = () => {
     <Container className="nasa">
       <Row>
         {/* <Col md="6"><p>Lat:{showLat}</p></Col> */}
-        <Col md="6">
+        <Col>
           {/* <p>Long:{showLong}</p> */}
-          <Button onClick={getLocation}>GetLocation</Button>
+          <Button className="btnSize"  outline color="info" onClick={getLocation}>Get Location</Button>
           <p>{loading ? "Loading..." : <></>}</p>
-        <img src={img} alt="" width="900px"></img>
+        <img src={img} alt="" width="650px" ></img>
         </Col>
       </Row>
     </Container>
